@@ -1,0 +1,3 @@
+rootProject.name='DialogSpinnerExample'
+include ':app'
+include ':dialogspinner'

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Strings -->
+    <string name="spinner_default_select_label">Select…</string>
+
+    <!--    Styles -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+        <item name="windowMinWidthMajor">90%</item>
+    </style>
+
+    <!--    Attrs -->
+    <declare-styleable name="DialogSpinner">
+        <attr name="ds_selection_mode" format="enum">
+            <enum name="single" value="0"/>
+            <enum name="multiple" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
